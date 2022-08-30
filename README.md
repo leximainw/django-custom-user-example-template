@@ -22,7 +22,7 @@ class User(AbstractUser):
 \<config>/settings.py:  
 add AUTH_USER_MODEL:  
 ```
-AUTH_USER_MODEL = '\<myApp>.User'
+AUTH_USER_MODEL = '<myApp>.User'
 ```
 
 __**TERMINAL:**__  
