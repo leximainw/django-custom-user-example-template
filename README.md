@@ -1,13 +1,13 @@
 **NOTE**: everything in \<brackets> refers to the name for that part of *your* project!
 
-**<u>TERMINAL:</u>**  
+__**TERMINAL:**__  
 pipenv install django  
 pipenv shell  
 django-admin startproject \<config> .  
 django-admin startapp \<myApp>  
 code .
 
-**<u>VS CODE:</u>**  
+__**VS CODE:**__  
 \<myApp>/models.py:  
 add import:  
 ```
@@ -25,7 +25,7 @@ add AUTH_USER_MODEL:
 AUTH_USER_MODEL = '\<myApp>.User'
 ```
 
-**<u>TERMINAL:</u>**  
+__**TERMINAL:**__  
 python manage.py makemigrations  
 python manage.py migrate  
 python manage.py runserver  
