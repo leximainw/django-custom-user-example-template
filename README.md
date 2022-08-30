@@ -1,14 +1,14 @@
-**NOTE**: everything in <brackets> refers to the name for that part of *your* project!
+**NOTE**: everything in \<brackets> refers to the name for that part of *your* project!
 
 TERMINAL:
 pipenv install django
 pipenv shell
-django-admin startproject <config> .
-django-admin startapp <myApp>
+django-admin startproject \<config> .
+django-admin startapp \<myApp>
 code .
 
 VS CODE:
-<myApp>/models.py:
+\<myApp>/models.py:
 add import:
 ```
 from django.contrib.auth.models import AbstractUser
@@ -19,10 +19,10 @@ class User(AbstractUser):
     pass
 ```
 
-<config>/settings.py:
+\<config>/settings.py:
 add AUTH_USER_MODEL:
 ```
-AUTH_USER_MODEL = '<myApp>.User'
+AUTH_USER_MODEL = '\<myApp>.User'
 ```
 
 TERMINAL:
