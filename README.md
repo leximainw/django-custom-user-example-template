@@ -24,6 +24,13 @@ add AUTH_USER_MODEL:
 ```
 AUTH_USER_MODEL = '<myApp>.User'
 ```
+add \<myApp>:
+```
+INSTALLED_APPS = [
+    <...>,
+    '<myApp>',
+]
+```
 
 __**TERMINAL:**__  
 python manage.py makemigrations  
